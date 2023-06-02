@@ -2,6 +2,8 @@ cabeçalho__menu-hamburgue {
     width: 24px;
     height: 24px;
     background-image: url("../img/men.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
 }
 
@@ -9,4 +11,14 @@ cabeçalho__menu-hamburgue {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
 }
